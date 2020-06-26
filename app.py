@@ -160,13 +160,8 @@ def app():
 
         st.subheader("Made with ❤️ by Mohd Aquib.")
 
-        github = "https://github.com/AquibPy/Exploratory-and-plotting-tool-for-Data-Science"
-        linkedIn = "https://www.linkedin.com/in/aquib-mohd-182b2a71/"
-
-        if st.button('Github'):
-            webbrowser.open_new_tab(github)
-        if st.button('LinkedIn'):
-            webbrowser.open_new_tab(linkedIn)
+        st.markdown("[GitHub](https://github.com/AquibPy/Exploratory-and-plotting-tool-for-Data-Science)")
+        st.markdown("[LinkedIn](https://www.linkedin.com/in/aquib-mohd-182b2a71/)")
 
         
         

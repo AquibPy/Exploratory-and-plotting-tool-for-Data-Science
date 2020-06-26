@@ -4,4 +4,3 @@ pandas
 sklearn
 matplotlib
 seaborn
-webbrowser
